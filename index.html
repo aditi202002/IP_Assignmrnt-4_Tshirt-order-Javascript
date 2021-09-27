@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-SHIRT</title>
+
+
+    <script src="index.js"></script>
+</head>
+<style>
+    body{
+        background-color: #F0D218;
+    }
+</style>
+<body>
+
+    <form action="" name="myForm" align="center" style="margin: 0px 30%;border: 1px;padding:30px;border-radius:
+    30px;background-color: rgb(113, 136, 209);" >
+        <br>
+        <div>
+            TAGLINE  : <input type="text" name="tagline"/>
+        </div>
+        <br>
+
+        <div>
+            COLOR : <input type="text" name="color"/>
+        </div>
+        <br>
+
+        <div>
+            SIZE  : 
+            <select name="size">
+                <option value="SMALL">SMALL</option>
+                <option value="LARGE">LARGE</option>
+                <option value="X-LARGE">X-LARGE</option>
+                <option value="XX-LARGE">XX-LARGE</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            QUANTITY: <input type="number" name="quantity"/>
+        </div>
+        <br>
+
+
+        <div>
+            DATE : <input type="date" name="date"/>
+        </div>
+        <br>
+
+        <div>
+            NAME : <input type="text" name="name"/>
+        </div>
+        <br>
+
+        <div>
+            PHONE NO.  : <input type="text" name="phone" maxlength="10" minlength="10"/>
+        </div>
+        <br>
+
+        <div>
+            EMAIL-ID : <input type="email" name="email"/>
+        </div>
+        <br>
+
+        <div>
+            ADDRESS : <br>
+            <textarea name="address" rows="10" cols="40"></textarea>
+        </div>
+        <br>
+        <br>
+
+        <button type="reset" style=" margin-left: 80px;background-color: rgb(150, 67, 245);color: aliceblue;">RESET NOW</button> 
+        <input type="button" value="SUBMIT NOW" onclick="validateForm();" style="margin-top:30px ; margin-left: 80px;background-color: rgb(150, 67, 245);color: aliceblue;"></input>
+
+
+    </form>
+
+</body>
+
+</html>
